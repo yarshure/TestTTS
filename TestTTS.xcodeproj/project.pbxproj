@@ -6,6 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		18E16C142DD347A900B5289D /* MLXSwiftTTS in Frameworks */ = {isa = PBXBuildFile; productRef = 18E16C132DD347A900B5289D /* MLXSwiftTTS */; };
+		18E16CA12DD34C6D00B5289D /* kokoro-v1_0.safetensors in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CA02DD34C6D00B5289D /* kokoro-v1_0.safetensors */; };
+		18E16CA32DD34CFF00B5289D /* ESpeakNG.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E16CA22DD34CFF00B5289D /* ESpeakNG.xcframework */; };
+		18E16CA62DD34D4000B5289D /* ESpeakNG.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18E16CA22DD34CFF00B5289D /* ESpeakNG.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18E16CB22DD34DBD00B5289D /* bf_emma.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CAE2DD34DBD00B5289D /* bf_emma.json */; };
+		18E16CB32DD34DBD00B5289D /* af_bella.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CA72DD34DBD00B5289D /* af_bella.json */; };
+		18E16CB42DD34DBD00B5289D /* af_heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CA82DD34DBD00B5289D /* af_heart.json */; };
+		18E16CB52DD34DBD00B5289D /* af_sarah.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CAA2DD34DBD00B5289D /* af_sarah.json */; };
+		18E16CB62DD34DBD00B5289D /* bf_isabella.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CAF2DD34DBD00B5289D /* bf_isabella.json */; };
+		18E16CB72DD34DBD00B5289D /* af_nicole.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CA92DD34DBD00B5289D /* af_nicole.json */; };
+		18E16CB82DD34DBD00B5289D /* bm_george.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CB02DD34DBD00B5289D /* bm_george.json */; };
+		18E16CB92DD34DBD00B5289D /* am_michael.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CAD2DD34DBD00B5289D /* am_michael.json */; };
+		18E16CBA2DD34DBD00B5289D /* af_sky.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CAB2DD34DBD00B5289D /* af_sky.json */; };
+		18E16CBB2DD34DBD00B5289D /* am_adam.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CAC2DD34DBD00B5289D /* am_adam.json */; };
+		18E16CBC2DD34DBD00B5289D /* bm_lewis.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E16CB12DD34DBD00B5289D /* bm_lewis.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		18E16BF62DD3422700B5289D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,10 +41,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		18E16CA52DD34D3700B5289D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				18E16CA62DD34D4000B5289D /* ESpeakNG.xcframework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		18E16BE82DD3422500B5289D /* TestTTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E16BF52DD3422700B5289D /* TestTTSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTTSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E16BFF2DD3422700B5289D /* TestTTSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTTSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E16CA02DD34C6D00B5289D /* kokoro-v1_0.safetensors */ = {isa = PBXFileReference; lastKnownFileType = file; name = "kokoro-v1_0.safetensors"; path = "/Users/apple/.cache/huggingface/hub/models--mlx-community--Kokoro-82M-bf16/blobs/kokoro-v1_0.safetensors"; sourceTree = "<absolute>"; };
+		18E16CA22DD34CFF00B5289D /* ESpeakNG.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ESpeakNG.xcframework; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Frameworks/ESpeakNG.xcframework"; sourceTree = "<absolute>"; };
+		18E16CA72DD34DBD00B5289D /* af_bella.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = af_bella.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/af_bella.json"; sourceTree = "<absolute>"; };
+		18E16CA82DD34DBD00B5289D /* af_heart.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = af_heart.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/af_heart.json"; sourceTree = "<absolute>"; };
+		18E16CA92DD34DBD00B5289D /* af_nicole.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = af_nicole.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/af_nicole.json"; sourceTree = "<absolute>"; };
+		18E16CAA2DD34DBD00B5289D /* af_sarah.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = af_sarah.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/af_sarah.json"; sourceTree = "<absolute>"; };
+		18E16CAB2DD34DBD00B5289D /* af_sky.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = af_sky.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/af_sky.json"; sourceTree = "<absolute>"; };
+		18E16CAC2DD34DBD00B5289D /* am_adam.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = am_adam.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/am_adam.json"; sourceTree = "<absolute>"; };
+		18E16CAD2DD34DBD00B5289D /* am_michael.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = am_michael.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/am_michael.json"; sourceTree = "<absolute>"; };
+		18E16CAE2DD34DBD00B5289D /* bf_emma.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = bf_emma.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/bf_emma.json"; sourceTree = "<absolute>"; };
+		18E16CAF2DD34DBD00B5289D /* bf_isabella.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = bf_isabella.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/bf_isabella.json"; sourceTree = "<absolute>"; };
+		18E16CB02DD34DBD00B5289D /* bm_george.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = bm_george.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/bm_george.json"; sourceTree = "<absolute>"; };
+		18E16CB12DD34DBD00B5289D /* bm_lewis.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = bm_lewis.json; path = "/Users/apple/Library/Developer/Xcode/DerivedData/TestTTS-ceqhrdphcztcztevekgbllnwgudk/SourcePackages/checkouts/mlx-audio/mlx_audio_swift/tts/Swift-TTS/Kokoro/Resources/bm_lewis.json"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E16C142DD347A900B5289D /* MLXSwiftTTS in Frameworks */,
+				18E16CA32DD34CFF00B5289D /* ESpeakNG.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +121,23 @@
 		18E16BDF2DD3422500B5289D = {
 			isa = PBXGroup;
 			children = (
+				18E16CA72DD34DBD00B5289D /* af_bella.json */,
+				18E16CA82DD34DBD00B5289D /* af_heart.json */,
+				18E16CA92DD34DBD00B5289D /* af_nicole.json */,
+				18E16CAA2DD34DBD00B5289D /* af_sarah.json */,
+				18E16CAB2DD34DBD00B5289D /* af_sky.json */,
+				18E16CAC2DD34DBD00B5289D /* am_adam.json */,
+				18E16CAD2DD34DBD00B5289D /* am_michael.json */,
+				18E16CAE2DD34DBD00B5289D /* bf_emma.json */,
+				18E16CAF2DD34DBD00B5289D /* bf_isabella.json */,
+				18E16CB02DD34DBD00B5289D /* bm_george.json */,
+				18E16CB12DD34DBD00B5289D /* bm_lewis.json */,
+				18E16CA22DD34CFF00B5289D /* ESpeakNG.xcframework */,
 				18E16BEA2DD3422500B5289D /* TestTTS */,
 				18E16BF82DD3422700B5289D /* TestTTSTests */,
 				18E16C022DD3422700B5289D /* TestTTSUITests */,
 				18E16BE92DD3422500B5289D /* Products */,
+				18E16CA02DD34C6D00B5289D /* kokoro-v1_0.safetensors */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +161,7 @@
 				18E16BE42DD3422500B5289D /* Sources */,
 				18E16BE52DD3422500B5289D /* Frameworks */,
 				18E16BE62DD3422500B5289D /* Resources */,
+				18E16CA52DD34D3700B5289D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -112,6 +172,7 @@
 			);
 			name = TestTTS;
 			packageProductDependencies = (
+				18E16C132DD347A900B5289D /* MLXSwiftTTS */,
 			);
 			productName = TestTTS;
 			productReference = 18E16BE82DD3422500B5289D /* TestTTS.app */;
@@ -195,6 +256,9 @@
 			);
 			mainGroup = 18E16BDF2DD3422500B5289D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				18E16C122DD347A900B5289D /* XCRemoteSwiftPackageReference "mlx-audio" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 18E16BE92DD3422500B5289D /* Products */;
 			projectDirPath = "";
@@ -212,6 +276,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E16CA12DD34C6D00B5289D /* kokoro-v1_0.safetensors in Resources */,
+				18E16CB22DD34DBD00B5289D /* bf_emma.json in Resources */,
+				18E16CB32DD34DBD00B5289D /* af_bella.json in Resources */,
+				18E16CB42DD34DBD00B5289D /* af_heart.json in Resources */,
+				18E16CB52DD34DBD00B5289D /* af_sarah.json in Resources */,
+				18E16CB62DD34DBD00B5289D /* bf_isabella.json in Resources */,
+				18E16CB72DD34DBD00B5289D /* af_nicole.json in Resources */,
+				18E16CB82DD34DBD00B5289D /* bm_george.json in Resources */,
+				18E16CB92DD34DBD00B5289D /* am_michael.json in Resources */,
+				18E16CBA2DD34DBD00B5289D /* af_sky.json in Resources */,
+				18E16CBB2DD34DBD00B5289D /* am_adam.json in Resources */,
+				18E16CBC2DD34DBD00B5289D /* bm_lewis.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +634,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18E16C122DD347A900B5289D /* XCRemoteSwiftPackageReference "mlx-audio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yarshure/mlx-audio";
+			requirement = {
+				branch = "swift-examples-improve";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18E16C132DD347A900B5289D /* MLXSwiftTTS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E16C122DD347A900B5289D /* XCRemoteSwiftPackageReference "mlx-audio" */;
+			productName = MLXSwiftTTS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 18E16BE02DD3422500B5289D /* Project object */;
 }
