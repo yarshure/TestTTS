@@ -1,13 +1,13 @@
 {
-  "originHash" : "d278535b504141fc28e307ad9313692c6e5d52211ad71a2a721cb39f0af18594",
+  "originHash" : "95e9f2df49c850fa3705cd427bce584ec34cecc600966a94c16a6296c395d4a6",
   "pins" : [
     {
       "identity" : "mlx-audio",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/yarshure/mlx-audio",
+      "location" : "https://github.com/Blaizzy/mlx-audio",
       "state" : {
-        "branch" : "swift-examples-improve",
-        "revision" : "c0dbbd650fae344ffab5a7b3727c39c5fa70b68d"
+        "branch" : "main",
+        "revision" : "31e965c8c40663b05682c1dc3d0f1c8f1abf7339"
       }
     },
     {
