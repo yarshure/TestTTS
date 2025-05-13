@@ -1,0 +1,33 @@
+{
+  "originHash" : "d278535b504141fc28e307ad9313692c6e5d52211ad71a2a721cb39f0af18594",
+  "pins" : [
+    {
+      "identity" : "mlx-audio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yarshure/mlx-audio",
+      "state" : {
+        "branch" : "swift-examples-improve",
+        "revision" : "c0dbbd650fae344ffab5a7b3727c39c5fa70b68d"
+      }
+    },
+    {
+      "identity" : "mlx-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ml-explore/mlx-swift",
+      "state" : {
+        "revision" : "a8f7411d0c7b63cbf3e64a694ec73850a46f9a1c",
+        "version" : "0.25.2"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics",
+      "state" : {
+        "revision" : "e0ec0f5f3af6f3e4d5e7a19d2af26b481acb6ba8",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}
